@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "country": "France",
+    "coords": [48.8566, 2.3522],
+    "population": "2,161,000",
+    "language": "French",
+    "currency": "Euro (€)",
+    "image": "assets/images/cities/paris.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Tokyo",
+    "country": "Japon",
+    "coords": [35.6895, 139.6917],
+    "population": "13,515,271",
+    "language": "Japanese",
+    "currency": "Japanese Yen (¥)",
+    "image": "assets/images/cities/tokyo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Canberra",
+    "country": "Australie",
+    "coords": [-35.2809, 149.13],
+    "population": "426,704",
+    "language": "English",
+    "currency": "Australian Dollar (A$)",
+    "image": "assets/images/cities/canberra.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Ottawa",
+    "country": "Canada",
+    "coords": [45.4215, -75.6972],
+    "population": "994,837",
+    "language": "English, French",
+    "currency": "Canadian Dollar (C$)",
+    "image": "assets/images/cities/ottawa.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Brasília",
+    "country": "Brésil",
+    "coords": [-15.8267, -47.9218],
+    "population": "3,055,149",
+    "language": "Portuguese",
+    "currency": "Brazilian Real (R$)",
+    "image": "assets/images/cities/brasilia.jpg"
+  }
+]
