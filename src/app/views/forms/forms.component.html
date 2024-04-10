@@ -1,0 +1,113 @@
+<div class="container pt-4 col-8">
+  <form (ngSubmit)="onSubmit(citiesForm)" #citiesForm="ngForm">
+    <div class="form-label">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="{{ formCity.image }}" alt="" class="rounded-5 img-fluid" />
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Nom ville"
+            id="name"
+            [(ngModel)]="formCity.name"
+            name="name"
+            value="{{ formCity.name }}"
+            required
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Population"
+            id="population"
+            [(ngModel)]="formCity.population"
+            name="population"
+            required
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Pays"
+            id="country"
+            [(ngModel)]="formCity.country"
+            name="country"
+            required
+          />
+        </div>
+        <div class="col-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="longitude"
+            id="longitude"
+            [(ngModel)]="formCity.longitude"
+            name="longitude"
+            required
+          />
+        </div>
+        <div class="col-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="latitude"
+            id="latitude"
+            [(ngModel)]="formCity.latitude"
+            name="latitude"
+            required
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Langue parlée"
+            id="language"
+            [(ngModel)]="formCity.language"
+            name="language"
+            required
+          />
+        </div>
+        <div class="col-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="monnaie"
+            id="monnaie"
+            [(ngModel)]="formCity.monnaie"
+            name="monnaie"
+            required
+          />
+        </div>
+        <div class="col-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="cygle ($, €, £, ...)"
+            id="cygle"
+            [(ngModel)]="formCity.cygle"
+            name="cygle"
+            required
+          />
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end">
+      <button
+        type="submit"
+        [disabled]="!citiesForm.form.valid"
+        class="btn btn-success mt-3 col-3 col-md-2"
+      >
+        Envoyer
+      </button>
+    </div>
+  </form>
+</div>
