@@ -1,0 +1,15 @@
+i {
+  color: dark;
+}
+
+.modifierBtn:hover {
+  background-color: #433f86;
+}
+
+.img-card {
+  max-height: 137px;
+}
+
+i:hover {
+  color: #f47e76;
+}
