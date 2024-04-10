@@ -1,0 +1,4 @@
+- [ ] Mise en place des images et du send des images
+- [ ] mise en place de models plus performant 
+- [ ] Refonte de la navbar
+- [ ] 
