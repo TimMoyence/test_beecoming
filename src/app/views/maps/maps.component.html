@@ -1,1 +1,11 @@
-<div id="map" style="height: 400px"></div>
+<div class="container">
+  <div class="row justify-content-center m-2">
+    <div
+      class="btn btn-success d-flex col-2 justify-content-center align-items-center"
+    >
+      <img src="/assets/my-position.png" class="locateUser" alt="" />
+      <p class="m-2" (click)="locateUser()">Me localiser</p>
+    </div>
+  </div>
+  <div id="map"></div>
+</div>
